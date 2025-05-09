@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <script>
+    try {
+      console.log("Secreto:", window.opener.secreto);
+    } catch (error) {
+      console.error("Error:", error.message);
+    }
+  </script>
+</body>
+</html>
